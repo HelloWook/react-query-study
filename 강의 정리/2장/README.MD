@@ -31,3 +31,8 @@ useEffect(() => {
 - isPending : 진행 중일떄
 - isSuccess : 성공했을 시
 - reset() : 삭제 상태를 초기화 해줘야하기 때문에 사용해야한다.
+
+### UseInfiniteQueryy
+
+- pages : 각 쿼리는 pages 배열의 요소를 가지고 있다.
+- pagesParam : 페이지 매개변수는 추적된 쿼리키를 관리한다.
